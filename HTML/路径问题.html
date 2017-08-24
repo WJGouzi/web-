@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>路径问题</title>
+</head>
+<body>
+
+<p>路径问题</p>
+<p>之所以写一个图片名称，就能显示出来，是因为图片和html文件在同一个文件夹中，所以才能识别。
+</p>
+<p>给src属性赋值可以用相对路径和绝对路径进行赋值。</p>
+<p>1.同级</p>
+<p>就是html和文件资源等放在同一个文件夹中</p>
+<p>2.下级</p>
+<p>也就是html和存放文件资源的文件夹在同一个文件夹中</p>
+<p>&ltimg src="images/gaki.jpg" alt=""&gt</p>
+
+<p>3.上级</p>
+<p>
+    存储的文件资源的和存放html的文件夹在同一层级。
+</p>
+<p>&ltimg src="../gagi.JPG" alt=""&gt</p>
+
+<img src="../../../gagi.JPG"/>
+
+
+
+<p><h4>绝对路径</h4></p>
+<p>
+    从指定的盘符进行查找。很少使用。路径中尽量不要使用中文。
+</p>
+<p>如果是相对路径的话，就不能进行跨盘符操作</p>
+
+</body>
+</html>
