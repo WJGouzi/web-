@@ -7,16 +7,39 @@
 </head>
 <body>
 
-<table>
+<p>实现细线表格是靠cellspacing为0是不合理的</p>
+
+<table border="1" cellspacing="0">
     <tr>
-        <td></td>
-        <td></td>
+        <td>1.1</td>
+        <td>1.2</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>2.1</td>
+        <td>2.2</td>
     </tr>
 </table>
+
+
+<hr>
+
+<p>1.细线表格的制作方式</p>
+<p>给table设置一个背景颜色</p>
+<p>给tr每行的单元格设置一个背景颜色</p>
+<p>给table设置cellspacing的宽度</p>
+<table bgcolor="black" cellspacing="1">
+    <tr bgcolor="white">
+        <td bgcolor="red">1.1</td>
+        <td>1.2</td>
+    </tr>
+    <tr bgcolor="white">
+        <td>2.1</td>
+        <td>2.2</td>
+    </tr>
+</table>
+<p>table和tr以及td都可以设置背景颜色，但以上只作为了解</p>
+
+
 
 </body>
 </html>
