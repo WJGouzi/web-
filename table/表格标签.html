@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="wangjun">
+    <meta charset="UTF-8">
+    <title>表格标签基本使用</title>
+</head>
+<body>
+
+<p>在过去，绝大多数的网站都是使用的是表格标签，现在被CSS+div取代了</p>
+
+<p>格式</p>
+<p>
+    &lttable&gt 输入内容 &lt/table&gt
+</p>
+
+<p>1.什么是表格标签</p>
+<p>给一堆数据添加表格语义，其实表格是一种数据展现形式，当数据量非常大的时候，表格这种展现形式被认为是最为清晰的一种展现形式</p>
+
+<p>2.格式</p>
+&lttable&gt
+&lttr&gt
+&lttd&gt
+    需要显示的内容
+&lt/td&gt
+&lt/tr&gt
+&lt/table&gt
+<p>一对table标签就是个表格，表格标签中的tr，代表表格中的一行数据</p>
+<p>td标签代表一行数据中的一个单元格</p>
+<p>需求：2行3列的表格</p>
+
+<table border="1px">
+    <tr>
+        <td>1.1</td>
+        <td>1.2</td>
+        <td>1.3</td>
+    </tr>
+    <tr>
+        <td>2.1</td>
+        <td>2.2</td>
+        <td>2.3</td>
+    </tr>
+</table>
+
+<p>注意点</p>
+<p>1.表格标签有一个边框属性值，默认情况下是0，所以看不到边框</p>
+<p>2.表格标签和列表标签是一样的，这是个组合标签，tr和td是一个组合，不要在tr中插入其他的标签</p>
+
+</body>
+</html>

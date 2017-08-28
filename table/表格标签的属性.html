@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="wangjun">
+    <meta charset="UTF-8">
+    <title>表格标签的属性</title>
+</head>
+<body>
+
+<p>1.宽度和高度</p>
+<p>给table标签和td标签使用</p>
+<p>1.1表格的宽高默认是按照内容的尺寸来调整的，也可以通过table标签设置width和height属性的方式来手动设置表格的宽高</p>
+<p>1.2如果给td标签设置width和height属性，会修改当前单元格的宽高，但不会影像整个表格的宽高</p>
+
+<p>2.水平和垂直</p>
+<p>可以给table标签、tr标签和td标签使用，而垂直对齐只能给tr标签和td标签使用</p>
+<p>2.1给table标签设置align属性，可以控制表格在水平方向的对齐方式</p>
+<p>2.2给tr标签设置align属性，可以控制当前行中所有单元格内容的水平对齐方式</p>
+<p>2.3给td标签设置align属性，可以控制当前单元格在水平方向的对齐方式，如果在tr中和td中都设置了水平对齐方式，单元格内容的水平对齐方式是按td为准</p>
+<p>2.4给tr标签设置valign属性，可以控制当前行中所有单元格中内容在垂直方向上的对齐方式</p>
+<p>2.5给td标签设置valign属性，可以控制当前单元格内容在垂直方向上的对齐方式，如果在tr和td都在垂直上设置了对齐方式，单元格内容在垂直对齐方式是以td为准的</p>
+
+<p>3.内边距和外边距</p>
+<p>只能给table标签使用</p>
+<p>外边距 ：单元格与单元格之间的距离，我们称之为外边距</p>
+<p>3.1默认情况下，单元格与单元格之间的外边距的大小为2px</p>
+<p>内边距 ：单元格与单元格中内容之间的间隙称之为内边距</p>
+<p>3.1默认情况下，单元格与内容之间的内边距的大小为1px</p>
+
+<p>编写两行两列的表格</p>
+<table border="1" width="500px" height="300px" align="center" cellspacing="0" cellpadding="20">
+    <tr valign="top">
+        <td width="150px" height="120px">1.1</td>
+        <td valign="bottom">1.2</td>
+    </tr>
+    <tr align="center">
+        <td align="right">2.1</td>
+        <td>2.2</td>
+    </tr>
+</table>
+
+<p>以上的内容仅仅作为了解，以上的样式都是通过CSS来控制的</p>
+
+
+
+
+</body>
+</html>
