@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="wangjun">
+    <meta charset="UTF-8">
+    <title>formTag</title>
+</head>
+<body>
+<p> 1.什么是表单 </p>
+<p>专门用来收集用户的信息</p>
+<p>2.什么是表单元素</p>
+<p>2.1什么是元素</p>
+<p>在HTML中，标签/标记/元素都是指HTML中的标签</p>
+<p>表单元素其实还是HTML中的一些标签，只不过这些标签比较特殊，在浏览器中所有的表单标签都有特殊的外观和默认的功能</p>
+<p>3.表单格式</p>
+&ltform&gt
+&lt表单元素&gt
+&lt/form&gt
+
+<p>4.常见的表单元素</p>
+input标签,有一个type属性，这个属性有很多的类型的取值，这个取值不同，就决定了input标签功能就不同，以及外观的不同
+<form >
+    <!--明文输入框-->
+    账号 ： <input type="text"> <br>
+    <!--密码输入框-->
+    密码 ： <input type="password"> <br>
+    <!--输入设置默认值-->
+    账号 ： <input type="text" value="wangjun"> <br>
+    <!--密码输入框-->
+    密码 ： <input type="password" value="123"> <br>
+    
+    <!--单选框-->
+    <p>默认情况下，单选框不会进行互斥，要想单选框进行互斥，要给每一个单选框进行设置一个相同值的name属性</p>
+    性别 ：  <input type="radio" name="gender"> 男
+            <input type="radio" name="gender"> 女
+            <!--<input type="radio" name="gender" checked="checked"> 保密-->
+            <input type="radio" name="gender" checked> 保密
+
+    <p>设置默认选中的单选框，可以给input标签添加一个cheked的属性</p>
+    <p>在HTML中，如果属性的取值和属性的名称一致，可以只写一个，但是在企业开发中还是推荐不省略的写法</p>
+
+    <!--多选框-->
+    <input type="checkbox" checked="checked"> 同意以上的政策 <br>
+    <input type="checkbox" checked="checked"> 自动遵守以上的法规
+    <p>单选框把cheked放在后面，执行那一个cheked，而多选框如果有多个cheked，那就会执行所有的cheked，所有标记了cheked的多选框都会被选择</p>
+</form>
+
+
+
+</body>
+</html>
