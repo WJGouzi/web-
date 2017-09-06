@@ -44,12 +44,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datalist标签.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="datalist标签.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datalist标签.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="220">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="表单标签中的H5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/表单标签中的H5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="其他标签.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/其他标签.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="综合练习-注册界面.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/综合练习-注册界面.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+              <folding>
+                <element signature="n#p#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#1;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#2;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#3;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#4;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#5;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#6;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#7;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#1265#1271#0" expanded="true" />
+                <element signature="e#1271#1277#0" expanded="true" />
+                <element signature="e#1277#1283#0" expanded="true" />
+                <element signature="e#1283#1289#0" expanded="true" />
+                <element signature="e#1289#1295#0" expanded="true" />
+                <element signature="e#1295#1301#0" expanded="true" />
+                <element signature="e#1301#1307#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,6 +116,9 @@
         <option value="$PROJECT_DIR$/表单标签2.html" />
         <option value="$PROJECT_DIR$/表单中的label标签.html" />
         <option value="$PROJECT_DIR$/datalist标签.html" />
+        <option value="$PROJECT_DIR$/表单标签中的H5.html" />
+        <option value="$PROJECT_DIR$/其他标签.html" />
+        <option value="$PROJECT_DIR$/综合练习-注册界面.html" />
       </list>
     </option>
   </component>
@@ -143,12 +192,12 @@
       <option name="presentableId" value="Default" />
       <updated>1504664000728</updated>
       <workItem from="1504664002050" duration="340000" />
-      <workItem from="1504664360971" duration="6706000" />
+      <workItem from="1504664360971" duration="12153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7046000" />
+    <option name="totallyTimeSpent" value="12493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -217,9 +266,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datalist标签.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/表单标签中的H5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/综合练习-注册界面.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+          <folding>
+            <element signature="n#p#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#1;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#2;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#3;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#4;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#5;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#6;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#7;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1265#1271#0" expanded="true" />
+            <element signature="e#1271#1277#0" expanded="true" />
+            <element signature="e#1277#1283#0" expanded="true" />
+            <element signature="e#1283#1289#0" expanded="true" />
+            <element signature="e#1289#1295#0" expanded="true" />
+            <element signature="e#1295#1301#0" expanded="true" />
+            <element signature="e#1301#1307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

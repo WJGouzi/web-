@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="wangjun">
+    <meta charset="UTF-8">
+    <title>表单标签中的其他标签</title>
+    <style type="text/css">
+        /*textarea{*/
+            /*resize:none;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<p>select标签</p>
+<p>定义下拉列表的</p>
+<p>格式：</p>
+&ltselect&gt
+&ltoption&gt
+        列表数据
+&lt/option&gt
+&lt/select&gt
+<br>
+
+<select>
+    <option>北京</option>
+    <option selected="selected">四川</option>
+    <option>重庆</option>
+    <option>上海</option>
+    <option>福建</option>
+    <option>陕西</option>
+</select>
+
+<p>注意点</p>
+<p>1.下拉列表不能输入内容，但是可以直接在列表中选择内容</p>
+<p>2.设置一个默认值,可以在option标签中添加一个selected属性，设置默认值</p>
+<p>3.给option标签包裹一层optgroup标签给下拉列表中的数据分类</p>
+
+&ltselect&gt
+&ltoptgroup label="分组的数据名称"&gt
+
+    &ltoption&gt
+    列表数据
+    &lt/option&gt
+&lt/optgroup&gt
+
+&lt/select&gt
+<br>
+
+<select>
+    <optgroup label="四川">
+        <option>自贡</option>
+        <option selected="selected">德阳</option>
+        <option>成都</option>
+    </optgroup>
+
+    <optgroup label="重庆">
+        <option>沙坪坝</option>
+        <option>大坪</option>
+    </optgroup>
+</select>
+
+<hr>
+<p>textarea标签</p>
+<p>定义一个多行的输入框</p>
+<textarea name="" id="" cols="30" rows="10">
+    这就相当于是iOS中的textView
+</textarea>
+<p>1.默认情况下，可以无限换行，</p>
+<p>2.默认情况下，输入框有自己的宽度和高度</p>
+<p>3.可以通过cols和rows指定的宽度和高度，虽然指定了宽高，但还是可以进行无限输入的</p>
+<p>4.默认情况下，输入框可以进行手动进行拉伸。</p>
+
+</body>
+</html>
