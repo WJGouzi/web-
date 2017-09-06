@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="wangjun">
+    <meta charset="UTF-8">
+    <title>表单标签2</title>
+</head>
+<body>
+
+<form action="http://www.baidu.com">
+    <p>定义普通的按钮，可以通过value属性来给按钮制定标题，作用是配合JS完成一些操作</p>
+
+    <input type="button" value="我是按钮">
+
+    <p>图片按钮</p>
+    <input type="image" src="../gakki.jpg" onclick="alert(123)"> <br>
+
+    <!--输入设置默认值-->
+    账号 ： <input type="text" name="userName"> <br>
+    <!--密码输入框-->
+    密码 ： <input type="password" name="userPassword"> <br>
+
+    <p>重置按钮:用于清空表单中已经填写好的数据</p>
+    <input type="reset">
+    <p>注意点：可以修改默认的标题，可以通过value属性进行修改</p>
+    <input type="reset" value="清空">
+
+    <p>提交按钮，将表单中已经填写好的数据，提交到服务器</p>
+    <input type="submit">
+    <p>注意点：要想把表单中填写好的数据，提交到服务器，必须要具备两个条件</p>
+    <p>1.需要给form表单添加一个action属性，通过action属性指定需要提交多服务器的地址</p>
+    <p>2.需要给提交到服务器的表单元素添加一个name属性</p>
+    <p>这就相当于是iOS中的URL中的param参数</p>
+    
+    <p>隐藏域</p>
+    <input type="hidden" name="wangguxuejun" value="wangjunsss">
+    <p>作用：配合提交按钮，将一些数据默默的提交到服务器</p> -> 添加一些参数的，这就是添加的一些默认的参数
+</form>
+
+
+
+
+</body>
+</html>
