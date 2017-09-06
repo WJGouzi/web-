@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="wangjun">
+    <meta charset="UTF-8">
+    <title>表单中的label标签</title>
+</head>
+<body>
+
+<p>1.默认情况下，文字和输入框是没有关系的，也就是说点击文字，输入框是不会edit状态的，那么就需要文字和输入框进行绑定</p>
+<p>2.要想文字和输入框绑定在一起，就要使用label标签</p>
+<p>3.绑定的格式，将文字用label标签包裹，然后给input标签添加一个id，然后给label标签中的for与input的id进行绑定</p>
+<form action="">
+    <label for="userName">账号 ：</label> <input type="text" id="userName"> <br>
+    <label for="password">密码 ：</label> <input type="password" id="password"> <br>
+
+    <label>账号 ： <input type="text"></label> 非官方，有局限 <br>
+
+</form>
+
+</body>
+</html>
